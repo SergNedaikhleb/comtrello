@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be0634ab-b6fa-459a-ba81-462d3e5f4883" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/TrelloRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/TrelloRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/imap/Imap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/imap/Imap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/imap/ImapClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/imap/ImapClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/imap/MessageContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/imap/MessageContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/imap/TestEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/imap/TestEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/imap/With.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/imap/With.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junk/CookieStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junk/CookieStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junk/TestSendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junk/TestSendEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junk/TrelloApiLoginNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junk/TrelloApiLoginNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junk/TryBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junk/TryBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junk/TryLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junk/TryLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/regression/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/regression/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/core/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/core/BrowserFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +25,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/api/TrelloRestClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="109">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ui/core/BrowserFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/api/services/ListsService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -122,18 +131,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/junk/TestSendEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -158,7 +155,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/junk/TryBrowser.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/core/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ui/core/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/core/Elem.java" />
         <option value="$PROJECT_DIR$/src/main/java/regression/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ui/pages/BoardsPage.java" />
@@ -174,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/main/java/imap/MessageContent.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/imap/ImapClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/api/TrelloRestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/models/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/models/Card.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/models/TrelloList.java" />
@@ -182,6 +177,8 @@
         <option value="$PROJECT_DIR$/src/main/java/api/services/BoardsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/services/CardsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/api/services/ListsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/api/TrelloRestClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ui/core/BrowserFactory.java" />
       </list>
     </option>
   </component>
@@ -209,8 +206,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="199" />
-    <option name="y" value="54" />
+    <option name="x" value="654" />
+    <option name="y" value="36" />
     <option name="width" value="1167" />
     <option name="height" value="694" />
   </component>
@@ -251,7 +248,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comtrello" type="b2602c69:ProjectViewProjectNode" />
@@ -259,33 +256,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptors" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comtrello" type="b2602c69:ProjectViewProjectNode" />
               <item name="comtrello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comtrello" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comtrello" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comtrello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comtrello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comtrello" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comtrello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,10 +321,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="199" y="54" width="1167" height="694" extended-state="0" />
+    <frame x="638" y="35" width="1167" height="694" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22033899" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26226583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,7 +338,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3282572" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27580371" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32941177" />
@@ -467,22 +452,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
             <element signature="e#706#707#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ui/core/BrowserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -615,13 +584,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/TrelloRestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/models/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -683,6 +645,32 @@
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/TrelloRestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ui/core/BrowserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
           </folding>
         </state>
       </provider>

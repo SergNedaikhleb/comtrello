@@ -1,6 +1,5 @@
 package ui.core;
 
-import junk.TryLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,7 +9,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 public class BrowserFactory {
-    private Logger logger = LoggerFactory.getLogger(TryLogger.class);
+
+    private Logger logger = LoggerFactory.getLogger(BrowserFactory.class);
     private static WebDriver driver;
 
     @BeforeTest
@@ -20,20 +20,22 @@ public class BrowserFactory {
     }
 
     @AfterTest
-    public void tearDown() {
+    public void tearDown(){
         driver.quit();
-        logger.info("BROWSER CLOSER");
+        logger.info("BROWSER CLOSED");
+
     }
 
     public static WebDriver driver(){
         return driver;
     }
 
+
     public static void get(String url){
         driver().get(url);
     }
 
-//    public static WebDriverWait getWebDriverWait(long timeout) {
-//         return driver(); //new WebDriverWait(driver(), )
-//          }
+    public static WebDriverWait getWebDriverWait(long timeout){
+        return new WebDriverWait(driver(), timeout);
+    }
 }
